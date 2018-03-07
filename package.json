@@ -1,0 +1,24 @@
+{
+  "name": "bacon-slider-example",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/cehter/ghPageExample",
+  "main": "src/index.js",
+  "dependencies": {
+    "bacon-slider": "1.0.6",
+    "gh-pages": "^1.1.0",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
